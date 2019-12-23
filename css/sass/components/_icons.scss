@@ -1,0 +1,59 @@
+.fa-check {
+    color: $main-color;
+    padding: 5px;
+    font-size: $s-font-size;
+}
+
+.fa-chevron-up{
+    color:#fff;
+}
+
+.fa-code,
+.fa-camera-retro,
+.fa-wordpress,
+.fa-chart-bar
+,.fa-ticket-alt{
+    font-size:32px;
+    font-weight: 600;
+    color:#444;
+   
+ 
+}
+
+
+.list-group .fa-check,
+.list-group .fa-times{
+    float: right;
+}
+.fa-times{
+    color:#d44747;
+    padding:5px;
+    font-size: $s-font-size;
+}
+
+.fa-facebook-f,
+.fa-twitter,
+.fa-google,
+.fa-pinterest-p{
+
+    font-size: 12px;
+    color:#444;
+    padding: 10px;
+    border:1px solid #444;
+    margin:5px;
+    border-radius: 50%;
+}
+.fa-facebook-f:hover,
+.fa-twitter:hover,
+.fa-google:hover,
+.fa-pinterest-p:hover,
+.fa-code:hover,
+.fa-camera-retro:hover,
+.fa-wordpress:hover,
+.fa-chart-bar:hover,
+.fa-ticket-alt:hover
+{
+    color:$main-color;
+    background-color:#fff;
+    border:1px solid #fff;
+}

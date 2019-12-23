@@ -1,0 +1,39 @@
+.section-title{
+    padding:30px;
+    margin-top:50px;
+    color:#444444;
+    font-size: $l-font-size ;
+    line-height: $l-font-size + 15;
+    line-height: $l-font-size + 15;
+    font-weight: bold;
+    position: relative;
+    @media(max-width: 576px){
+        padding:3px;
+        margin :30px auto;
+        color:#444444;
+        font-size: $l-font-size;
+        line-height: 25px;
+        font-weight: bold;
+        position: relative;
+            }
+    &::after{
+        content: " ";
+        position: absolute;
+        top:80px;
+        left:45%;
+        right: 45%;
+        width: 10%;
+        height:1px;
+        border: 1px solid #444;
+        @media(max-width: 576px){
+            content: " ";
+            position: absolute;
+            top:50px;
+            left:40%;
+            right: 40%;
+            width: 20%;
+            height:1px;
+            border: 1px solid #444;
+        }
+    }
+}

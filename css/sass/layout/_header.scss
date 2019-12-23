@@ -1,0 +1,36 @@
+/*Start Nav Bar styling*/
+.main-nav{
+    background-color: $background-overlay;
+    z-index:9999;
+    position:fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    .logo{
+        color:#fff;
+        font-size: $l-font-size;
+        font-weight: bold;
+        margin: $main-margin;
+        span{
+            color:$main-color;
+            font-size: 25px;
+            font-weight: bold;
+        }
+    }
+    .nav-item{
+    font-size:16px;
+    padding: 5px;
+    .nav-link{
+        color:#fff;
+        &:hover,
+        &:focus{
+        color:rgb(25, 212, 56);
+           }
+       }
+   }
+   .active{
+    color: rgb(25, 212, 56) !important;
+   }
+  
+}
+/*End Nav Bar styling*/
